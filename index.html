@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>JLPT N4 Mock Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Home Screen -->
+  <div id="home-screen">
+    <h1>JLPT N4 モックテスト</h1>
+    <button id="start-btn">テストを始める</button>
+  </div>
+
+  <!-- Test Screen -->
+  <div id="test-screen" style="display:none;">
+    <h2 id="question-text"></h2>
+    <div id="options-container"></div>
+    <button id="next-btn">次へ</button>
+  </div>
+<div id="timer" style="font-weight:bold; margin-bottom: 12px;"></div>
+
+  <!-- Result Screen -->
+  <div id="result-screen" style="display:none;">
+    <h2>結果</h2>
+    <p id="score-text"></p>
+    <div id="details"></div>
+  </div>
+  <footer>
+    <button><a href="index.html">Home</a></button>
+  </footer>
+
+  <!-- Your JS file -->
+  <script src="script.js"></script>
+</body>
+</html>

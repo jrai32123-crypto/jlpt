@@ -1,0 +1,37 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 16px;
+  background-image: url(https://scontent-nrt1-1.xx.fbcdn.net/v/t39.30808-6/480857731_1171664134543335_2223904316379281717_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=avMv7-Lt4F4Q7kNvwH6p7Hg&_nc_oc=AdlJgNt59lpS5jae2vXl5_mlNnvj6JXJtKur89svklbKzjomIIeAZh2YV3H15C-Wjm6VBGOqxB3lJSrk9Frqy0hb&_nc_zt=23&_nc_ht=scontent-nrt1-1.xx&_nc_gid=Cic2cczi1dBRkgDdb8q7mA&oh=00_Afi0YIHyeyceS8ltiRk7tQmhOKEsz_OEAQsIe5XrzFmymw&oe=692DF231);
+  background-size: cover;
+  color: blue;
+}
+
+#test-screen,
+#home-screen,
+#result-screen {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+footer{
+    display: flexbox;
+    position: absolute;
+
+}
+button:hover{
+    color: red;
+}
+button:visited{
+    color: yellow;
+    display: inline-block;
+    padding-left: 20%;
+}
